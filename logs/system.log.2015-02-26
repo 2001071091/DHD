@@ -1,0 +1,42 @@
+2015-02-26 16:04:57 INFO - 开始加载脚本库文件
+2015-02-26 16:04:58 INFO - 脚本库刷新完毕[35]
+2015-02-26 16:04:58 INFO - API.info:37wan.1.dhdauto01	尝试登录...
+2015-02-26 16:04:58 INFO - API.info:37wan.1.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-02-26 16:04:58 INFO - API.info:37wan.1.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=1]
+2015-02-26 16:04:58 INFO - API.info:37wan.1.dhdauto01	解析出游戏连接[http://gameapp.37.com/controller/enter_game.php?game_id=292&sid=1&showlogintype=1]
+2015-02-26 16:04:58 INFO - API.info:37wan.1.dhdauto01	解析出gateway[http://s1.dhd.37wan.com/m.do]
+2015-02-26 16:04:58 INFO - API.info:37wan.1.dhdauto01	解析出sid[ae815a9bf4470dd8c307b3d79a5539def72b1aa2]
+2015-02-26 16:04:59 INFO - API.info:37wan.1.dhdauto01	sock 登录...
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	登录成功
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	-----尝试更新引导,当前引导位置:-1
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	1天后再次尝试更新引导信息
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	-----尝试获取免费英雄
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	获得道具[{"item":"徐晃将魂","num":2}]
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	获得道具[{"item":"白轻甲","num":100}]
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	获得道具[{"resource":"FOOD","num":4500}]
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	获得道具[{"item":"白刀剑","num":100}]
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	获得道具[{"item":"白鞋","num":100}]
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	获得道具[{"item":"大银币袋","num":1}]
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	设置1天后再次尝试
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	-----尝试获取邮件
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	获取邮件[春节攻城狂欢夜奖励]的附件[{"itemDefs":[{"num":3,"name":"红包1"}]}]
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	获取邮件[春节攻城狂欢夜奖励]的附件[{"itemDefs":[{"num":3,"name":"红包1"}]}]
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	获取邮件[春节攻城狂欢夜奖励]的附件[{"itemDefs":[{"num":3,"name":"红包1"}]}]
+2015-02-26 16:05:00 INFO - API.info:37wan.1.dhdauto01	获取邮件[春节攻城狂欢夜奖励]的附件[{"itemDefs":[{"num":3,"name":"红包1"}]}]
+2015-02-26 16:05:01 INFO - API.info:37wan.1.dhdauto01	邮件获取完毕,设定1小时后再次获取
+2015-02-26 16:05:01 INFO - API.info:37wan.1.dhdauto01	-----尝试装备军械、招募升星、兵种进阶、技能升级
+2015-02-26 16:05:01 INFO - API.info:37wan.1.dhdauto01	1分钟后再次尝试装备道具
+2015-02-26 16:05:01 INFO - API.info:37wan.1.dhdauto01	-----处理封地
+2015-02-26 16:05:01 INFO - API.info:37wan.1.dhdauto01	1分钟后再次尝试
+2015-02-26 16:05:01 INFO - API.info:37wan.1.dhdauto01	-----尝试提交已经完成的任务
+2015-02-26 16:05:02 INFO - API.info:37wan.1.dhdauto01	提交任务[10]:{"taskId":10}
+2015-02-26 16:05:02 INFO - API.info:37wan.1.dhdauto01	1分钟后再次尝试提交任务
+2015-02-26 16:05:02 INFO - API.info:37wan.1.dhdauto01	-----处理主线城市开启
+2015-02-26 16:05:02 INFO - API.info:37wan.1.dhdauto01	挑战[阆中],等级[1]
+2015-02-26 16:05:02 INFO - API.info:37wan.1.dhdauto01	已经在地图[64]
+2015-02-26 16:05:02 INFO - API.info:37wan.1.dhdauto01	{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"LEVEL_TOO_LOW"}
+2015-02-26 16:05:02 INFO - API.info:37wan.1.dhdauto01	设定1小时后重新尝试挑战主线
+2015-02-26 16:05:02 INFO - API.info:37wan.1.dhdauto01	-----获取免费市场资源
+2015-02-26 16:05:02 INFO - API.info:37wan.1.dhdauto01	1小时后再次尝试领取免费资源
+2015-02-26 16:05:06 INFO - API.info:37wan.1.dhdauto01	-----尝试装备军械、招募升星、兵种进阶、技能升级
+2015-02-26 16:05:06 INFO - API.info:37wan.1.dhdauto01	1分钟后再次尝试装备道具
