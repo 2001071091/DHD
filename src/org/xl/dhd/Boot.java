@@ -27,8 +27,9 @@ public class Boot {
         Script.japiInstance = "org.xl.dhd.API;API.context=org.xl.dhd.Context";
         Context.loadScript();
 
-        //API.info(API.encodeJson(Context.getConfig("item")));
+        API.info(API.encodeJson(Context.getConfig("eliteFBRandomReward")));
         //API.info(API.encodeJson(Context.getConfig("hero")));
+        API.sleep(10000000);
         /**
          * 加载路径
          */

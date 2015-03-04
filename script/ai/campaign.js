@@ -16,24 +16,32 @@ function loop(client, args) {
         lv++;
     }
 
-    API.sleep(10000000000000000000);
     ret = client.sendAct("Campaign.getLeftTimes");
-
 
     //{"act":"Campaign.eliteGetAllInfos","sid":"d883597992ae536fb03c3392eea62a85493b269e"}
     //尝试挑战未通关的 讨伐群雄
 
+    var config = API.context.getConfig("eliteFBDetail2");
+    client.info(API.encodeJson(config));
 
     //挑战已经通关单 讨伐群雄 获得奖励[首先尝试最需要的军械装备]
     while (ret.elite > 0) {//如果 讨伐群雄 次数大于0
-        if (!deal(client, 1, 1, "普通")) {
+        var index = 0;
+        //记录需求
+        if (client.props.equip_needs != null) {
+            var need = client.props.equip_needs[0];
+            index = config[need][11];
+        }
+        if (index > lv) {
+            index = lv;
+        }
+        if (!deal(client, index)) {
             client.info("挑战失败,放弃");
             break;
         }
-
-
         ret.elite--;
     }
+    API.sleep(10000000000000000000);
     //var eliteTimes = ret.elite;
     //var arenaTimes = ret.arena;
 }

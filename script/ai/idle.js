@@ -16,7 +16,7 @@ function loop(client, args) {
     var now = API.now();
     var result = client.sendAct("System.ping", {clientTime: now});
     client.props.timeoffset = Number(result.serverTime) - Number(result.clientTime);
-    client.runAI("campaign");
+
     //处理引导
     client.runAI("guide");
     //获取英雄
@@ -25,6 +25,9 @@ function loop(client, args) {
     client.runAI("mail");
     //英雄进行装备
     client.runAI("equip");
+    //处理讨伐群雄
+    if (lv >= 20)
+        client.runAI("campaign");
     //封地
     if (lv >= 10)
         client.runAI("manor");

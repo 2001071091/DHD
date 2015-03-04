@@ -169,8 +169,13 @@ function loop(client, args) {
                             client.info("英雄[" + hero.nm + "],装备军械[" + need[0] + "][" + need[1] + "]");
                             hasUp = true;
                         } else {
-                            if (client.props.items[need[0]].n < Number(need[1])) {
+                            if (client.props.items[need[0]] != null
+                                    && client.props.items[need[0]].n < Number(need[1])) {
                                 //记录需求
+                                if(client.props.equip_needs==null){
+                                    client.props.equip_needs =[];
+                                }
+                                client.props.equip_needs.push(need[0]);
                                 client.info("需要军械[" + need[0] + "]进行升级");
                             }
                             canUp = false;
