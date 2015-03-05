@@ -172,11 +172,12 @@ function loop(client, args) {
                             if (client.props.items[need[0]] != null
                                     && client.props.items[need[0]].n < Number(need[1])) {
                                 //记录需求
-                                if(client.props.equip_needs==null){
-                                    client.props.equip_needs =[];
+                                if (client.props.equip_needs == null) {
+                                    client.props.equip_needs = [];
                                 }
-                                client.props.equip_needs.push(need[0]);
-                                client.info("需要军械[" + need[0] + "]进行升级");
+                                var last = Number(need[1]) - client.props.items[need[0]].n;
+                                client.props.equip_needs.push([need[0], last]);
+                                client.info("需要军械[" + need[0] + "x" + last + "]进行升级");
                             }
                             canUp = false;
                         }

@@ -59,6 +59,7 @@ function login(client) {
     //API.info(API.encodeJson(result));
     client.props.guide = Number(result.guide);
     client.props.playerId = result.playerId;
+    client.props.nickName =result.nickName;
     client.sid = sid;
     result = client.sendAct("Login.loginFinish");
 }

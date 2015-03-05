@@ -5,7 +5,7 @@
 
 function loop(client, args) {
     var ret = client.sendAct("Campaign.eliteGetAllInfos");
-    client.info(API.encodeJson(ret));
+    //client.info(API.encodeJson(ret));
     var lv = ret.data.length;
 
     client.runAI("state", 0x08);
@@ -21,19 +21,25 @@ function loop(client, args) {
     //{"act":"Campaign.eliteGetAllInfos","sid":"d883597992ae536fb03c3392eea62a85493b269e"}
     //尝试挑战未通关的 讨伐群雄
 
-    var config = API.context.getConfig("eliteFBDetail2");
-    client.info(API.encodeJson(config));
-
+    var config = API.context.getConfig("eliteFBRandomReward");
+    //client.info(API.encodeJson(config));
+    
+    lv--;
+    client.info("讨伐群雄剩余次数["+ret.elite+"]");
     //挑战已经通关单 讨伐群雄 获得奖励[首先尝试最需要的军械装备]
     while (ret.elite > 0) {//如果 讨伐群雄 次数大于0
-        var index = 0;
+        var index = lv;
         //记录需求
         if (client.props.equip_needs != null) {
-            var need = client.props.equip_needs[0];
-            index = config[need][11];
-        }
-        if (index > lv) {
-            index = lv;
+            for (var i = 0; i < client.props.equip_needs.length; i++) {
+                var item = client.props.equip_needs[i][0];
+                var need = client.props.equip_needs[i][1];
+                if ((config[item][0] - 1) <= lv) {
+                    index = config[item][0] - 1;
+                    client.info("需求[" + item + "x" + need + "],挑战Lv" + (index + 1) + "的讨伐群雄");
+                    break;
+                }
+            }
         }
         if (!deal(client, index)) {
             client.info("挑战失败,放弃");
@@ -41,7 +47,7 @@ function loop(client, args) {
         }
         ret.elite--;
     }
-    API.sleep(10000000000000000000);
+
     //var eliteTimes = ret.elite;
     //var arenaTimes = ret.arena;
 }

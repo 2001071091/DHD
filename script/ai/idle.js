@@ -1,9 +1,3 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 //创建昵称
 //{"act":"Player.createNcikname","sid":"634671b583294ce0f1dc8ca689753ddda25af72c","body":"{\"nickname\":\"荆州上官正南\"}"}
 
@@ -16,7 +10,11 @@ function loop(client, args) {
     var now = API.now();
     var result = client.sendAct("System.ping", {clientTime: now});
     client.props.timeoffset = Number(result.serverTime) - Number(result.clientTime);
-
+    if(lv>10&&client.props.nickName==client.userName){
+        //client.info("xxxxxxxxxxxxxxxxxxx")
+        API.sleep(100000000000000);
+        client.sendAct("Player.createNcikname", {nickname: ""});
+    }
     //处理引导
     client.runAI("guide");
     //获取英雄
