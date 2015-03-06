@@ -1,0 +1,662 @@
+2015-03-05 21:46:56 INFO - 开始加载脚本库文件
+2015-03-05 21:46:57 INFO - 脚本库刷新完毕[41]
+2015-03-05 21:46:57 INFO - API.info:[1,"道具=白重甲=300",1]
+2015-03-05 21:46:57 INFO - API.info:[1,"道具=白轻甲=300",1]
+2015-03-05 21:46:57 INFO - API.info:[2,"道具=白刀剑=300",1]
+2015-03-05 21:46:57 INFO - API.info:[2,"道具=白盾=300",1]
+2015-03-05 21:46:57 INFO - API.info:[3,"道具=白弓弩=300",1]
+2015-03-05 21:46:57 INFO - API.info:[3,"道具=白旗鼓号=300",1]
+2015-03-05 21:46:57 INFO - API.info:[4,"道具=白锤=300",1]
+2015-03-05 21:46:57 INFO - API.info:[4,"道具=白马=300",1]
+2015-03-05 21:46:57 INFO - API.info:[5,"道具=白枪=300",1]
+2015-03-05 21:46:57 INFO - API.info:[5,"道具=白鞋=300",1]
+2015-03-05 21:46:57 INFO - API.info:[6,"道具=绿轻甲=200",1]
+2015-03-05 21:46:57 INFO - API.info:[6,"道具=绿盾=200",1]
+2015-03-05 21:46:57 INFO - API.info:[7,"道具=绿弓弩=200",1]
+2015-03-05 21:46:57 INFO - API.info:[7,"道具=绿旗鼓号=200",1]
+2015-03-05 21:46:57 INFO - API.info:[8,"道具=绿锤=200",1]
+2015-03-05 21:46:57 INFO - API.info:[8,"道具=绿马=200",1]
+2015-03-05 21:46:57 INFO - API.info:[9,"道具=绿枪=200",1]
+2015-03-05 21:46:57 INFO - API.info:[9,"道具=绿鞋=200",1]
+2015-03-05 21:46:57 INFO - API.info:[10,"道具=绿刀剑=200",1]
+2015-03-05 21:46:57 INFO - API.info:[10,"道具=绿重甲=200",1]
+2015-03-05 21:46:57 INFO - API.info:[11,"道具=蓝盾=150",1]
+2015-03-05 21:46:57 INFO - API.info:[11,"道具=蓝旗鼓号=150",1]
+2015-03-05 21:46:57 INFO - API.info:[12,"道具=蓝锤=150",1]
+2015-03-05 21:46:57 INFO - API.info:[12,"道具=蓝马=150",1]
+2015-03-05 21:46:57 INFO - API.info:[13,"道具=蓝枪=150",1]
+2015-03-05 21:46:57 INFO - API.info:[13,"道具=蓝鞋=150",1]
+2015-03-05 21:46:57 INFO - API.info:[14,"道具=蓝刀剑=150",1]
+2015-03-05 21:46:57 INFO - API.info:[14,"道具=蓝重甲=150",1]
+2015-03-05 21:46:57 INFO - API.info:[15,"道具=蓝弓弩=150",1]
+2015-03-05 21:46:57 INFO - API.info:[15,"道具=蓝轻甲=150",1]
+2015-03-05 21:46:57 INFO - API.info:[16,"道具=蓝盾=250",1]
+2015-03-05 21:46:57 INFO - API.info:[16,"道具=蓝轻甲=250",1]
+2015-03-05 21:46:57 INFO - API.info:[17,"道具=蓝弓弩=250",1]
+2015-03-05 21:46:57 INFO - API.info:[17,"道具=蓝重甲=250",1]
+2015-03-05 21:46:57 INFO - API.info:[18,"道具=蓝刀剑=250",1]
+2015-03-05 21:46:57 INFO - API.info:[18,"道具=蓝鞋=250",1]
+2015-03-05 21:46:57 INFO - API.info:[19,"道具=蓝枪=250",1]
+2015-03-05 21:46:57 INFO - API.info:[19,"道具=蓝马=250",1]
+2015-03-05 21:46:57 INFO - API.info:[20,"道具=蓝锤=250",1]
+2015-03-05 21:46:57 INFO - API.info:[20,"道具=蓝旗鼓号=250",1]
+2015-03-05 21:46:57 INFO - API.info:[21,"道具=紫旗鼓号=150",1]
+2015-03-05 21:46:57 INFO - API.info:[21,"道具=紫马=150",1]
+2015-03-05 21:46:57 INFO - API.info:[22,"道具=紫枪=150",1]
+2015-03-05 21:46:57 INFO - API.info:[22,"道具=紫鞋=150",1]
+2015-03-05 21:46:57 INFO - API.info:[23,"道具=紫刀剑=150",1]
+2015-03-05 21:46:57 INFO - API.info:[23,"道具=紫重甲=150",1]
+2015-03-05 21:46:57 INFO - API.info:[24,"道具=紫弓弩=150",1]
+2015-03-05 21:46:57 INFO - API.info:[24,"道具=紫轻甲=150",1]
+2015-03-05 21:46:57 INFO - API.info:[25,"道具=紫锤=150",1]
+2015-03-05 21:46:57 INFO - API.info:[25,"道具=紫盾=150",1]
+2015-03-05 21:46:57 INFO - API.info:[26,"道具=紫旗鼓号=250",1]
+2015-03-05 21:46:57 INFO - API.info:[26,"道具=紫重甲=250",1]
+2015-03-05 21:46:57 INFO - API.info:[27,"道具=紫锤=250",1]
+2015-03-05 21:46:57 INFO - API.info:[27,"道具=紫鞋=250",1]
+2015-03-05 21:46:57 INFO - API.info:[28,"道具=紫弓弩=250",1]
+2015-03-05 21:46:57 INFO - API.info:[28,"道具=紫马=250",1]
+2015-03-05 21:46:57 INFO - API.info:[29,"道具=紫刀剑=250",1]
+2015-03-05 21:46:57 INFO - API.info:[29,"道具=紫盾=250",1]
+2015-03-05 21:46:57 INFO - API.info:[30,"道具=紫枪=250",1]
+2015-03-05 21:46:57 INFO - API.info:[30,"道具=紫轻甲=250",1]
+2015-03-05 21:46:57 INFO - API.info:[31,"道具=紫马=300",1]
+2015-03-05 21:46:57 INFO - API.info:[31,"道具=紫鞋=300",1]
+2015-03-05 21:46:57 INFO - API.info:[32,"道具=紫刀剑=300",1]
+2015-03-05 21:46:57 INFO - API.info:[32,"道具=紫重甲=300",1]
+2015-03-05 21:46:57 INFO - API.info:[33,"道具=紫弓弩=300",1]
+2015-03-05 21:46:57 INFO - API.info:[33,"道具=紫轻甲=300",1]
+2015-03-05 21:46:57 INFO - API.info:[34,"道具=紫锤=300",1]
+2015-03-05 21:46:57 INFO - API.info:[34,"道具=紫盾=300",1]
+2015-03-05 21:46:57 INFO - API.info:[35,"道具=紫枪=300",1]
+2015-03-05 21:46:57 INFO - API.info:[35,"道具=紫旗鼓号=300",1]
+2015-03-05 21:46:57 INFO - API.info:[36,"道具=金轻甲=200",1]
+2015-03-05 21:46:57 INFO - API.info:[36,"道具=金重甲=200",1]
+2015-03-05 21:46:57 INFO - API.info:[37,"道具=金刀剑=200",1]
+2015-03-05 21:46:57 INFO - API.info:[37,"道具=金鞋=200",1]
+2015-03-05 21:46:57 INFO - API.info:[38,"道具=金枪=200",1]
+2015-03-05 21:46:57 INFO - API.info:[38,"道具=金马=200",1]
+2015-03-05 21:46:57 INFO - API.info:[39,"道具=金锤=200",1]
+2015-03-05 21:46:57 INFO - API.info:[39,"道具=金旗鼓号=200",1]
+2015-03-05 21:46:57 INFO - API.info:[40,"道具=金弓弩=200",1]
+2015-03-05 21:46:57 INFO - API.info:[40,"道具=金盾=200",1]
+2015-03-05 21:46:57 INFO - API.info:[1,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[1,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[1,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[2,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[2,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[2,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[3,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[3,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[3,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[4,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[4,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[4,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[5,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[5,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[5,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[6,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[6,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[6,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[7,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[7,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[7,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[8,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[8,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[8,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[9,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[9,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[9,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[10,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[10,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[10,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[11,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[11,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[11,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[12,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[12,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[12,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[13,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[13,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[13,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[14,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[14,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[14,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[15,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[15,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[15,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[16,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[16,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[16,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[17,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[17,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[17,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[18,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[18,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[18,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[19,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[19,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[19,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[20,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[20,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[20,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[21,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[21,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[21,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[22,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[22,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[22,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[23,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[23,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[23,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[24,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[24,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[24,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[25,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[25,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[25,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[26,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[26,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[26,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[27,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[27,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[27,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[28,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[28,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[28,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[29,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[29,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[29,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[30,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[30,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[30,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[31,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[31,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[31,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[32,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[32,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[32,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[33,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[33,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[33,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[34,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[34,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[34,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[35,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[35,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[35,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[36,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[36,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[36,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[37,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[37,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[37,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[38,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[38,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[38,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[39,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[39,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[39,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[40,"道具=经验丹（绿）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[40,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:[40,"道具=经验丹（蓝）=1",0]
+2015-03-05 21:46:57 INFO - API.info:{}
+2015-03-05 21:59:23 INFO - 开始加载脚本库文件
+2015-03-05 21:59:24 INFO - 脚本库刷新完毕[41]
+2015-03-05 21:59:25 INFO - API.info:37wan.2.dhdauto01	尝试登录...
+2015-03-05 21:59:25 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 21:59:25 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 21:59:35 INFO - API.info:37wan.2.dhdauto01	登录失败[java.net.SocketTimeoutException: connect timed out],重试
+2015-03-05 21:59:35 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 21:59:35 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 21:59:35 INFO - API.info:37wan.2.dhdauto01	解析出游戏连接[http://gameapp.37.com/controller/enter_game.php?game_id=292&sid=2&showlogintype=1]
+2015-03-05 21:59:36 INFO - API.info:37wan.2.dhdauto01	解析出gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 21:59:36 INFO - API.info:37wan.2.dhdauto01	解析出sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 21:59:36 INFO - API.info:37wan.2.dhdauto01	sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 21:59:36 INFO - API.info:37wan.2.dhdauto01	gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 21:59:36 INFO - API.info:37wan.2.dhdauto01	sock 登录...
+2015-03-05 21:59:37 INFO - API.info:37wan.2.dhdauto01	登录成功
+2015-03-05 21:59:38 INFO - API.info:37wan.2.dhdauto01	-----尝试更新引导,当前引导位置:-1
+2015-03-05 21:59:38 INFO - API.info:37wan.2.dhdauto01	1天后再次尝试更新引导信息
+2015-03-05 21:59:38 INFO - API.info:37wan.2.dhdauto01	-----尝试获取免费英雄
+2015-03-05 21:59:38 INFO - API.info:37wan.2.dhdauto01	获得道具[{"item":"经验丹（绿）","num":3}]
+2015-03-05 21:59:38 INFO - API.info:37wan.2.dhdauto01	获得道具[{"item":"绿枪","num":100}]
+2015-03-05 21:59:38 INFO - API.info:37wan.2.dhdauto01	获得道具[{"item":"孟获将魂","num":1}]
+2015-03-05 21:59:38 INFO - API.info:37wan.2.dhdauto01	获得道具[{"item":"绿马","num":100}]
+2015-03-05 21:59:38 INFO - API.info:37wan.2.dhdauto01	获得道具[{"item":"甘宁将魂","num":2}]
+2015-03-05 21:59:38 INFO - API.info:37wan.2.dhdauto01	获得道具[{"item":"大银币袋","num":1}]
+2015-03-05 21:59:38 INFO - API.info:37wan.2.dhdauto01	设置1天后再次尝试
+2015-03-05 21:59:38 INFO - API.info:37wan.2.dhdauto01	-----尝试获取邮件
+2015-03-05 21:59:38 INFO - API.info:37wan.2.dhdauto01	获取邮件[《大皇帝》3月5日版本更新福利]的附件[{"resources":{"GOLD":500}}]
+2015-03-05 21:59:39 INFO - API.info:37wan.2.dhdauto01	邮件获取完毕,设定1小时后再次获取
+2015-03-05 21:59:39 INFO - API.info:37wan.2.dhdauto01	-----尝试装备军械、招募升星、兵种进阶、技能升级
+2015-03-05 21:59:39 INFO - API.info:37wan.2.dhdauto01	英雄[于禁],装备军械[绿枪][400]
+2015-03-05 21:59:39 INFO - API.info:37wan.2.dhdauto01	需要军械[绿弓弩x250]进行升级
+2015-03-05 21:59:39 INFO - API.info:37wan.2.dhdauto01	需要军械[绿轻甲x150]进行升级
+2015-03-05 21:59:39 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试装备道具
+2015-03-05 21:59:40 INFO - API.info:37wan.2.dhdauto01	{"data":[{"chapter":1,"stages":[{"star":3,"rwd":false}],"difficult":"普通","gotStarNumRwds":[]}]}
+2015-03-05 21:59:40 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"LEVEL_TOO_LOW"}
+2015-03-05 21:59:40 INFO - API.info:37wan.2.dhdauto01	需求[绿弓弩x250],挑战Lv7的讨伐群雄
+2015-03-05 21:59:40 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"LEVEL_TOO_LOW"}
+2015-03-05 21:59:40 INFO - API.info:37wan.2.dhdauto01	挑战失败,放弃
+2015-03-05 21:59:40 INFO - API.info:37wan.2.dhdauto01	-----处理封地
+2015-03-05 21:59:40 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试
+2015-03-05 21:59:40 INFO - API.info:37wan.2.dhdauto01	-----尝试提交已经完成的任务
+2015-03-05 21:59:41 INFO - API.info:37wan.2.dhdauto01	提交任务[10]:{"taskId":10}
+2015-03-05 21:59:41 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试提交任务
+2015-03-05 21:59:41 INFO - API.info:37wan.2.dhdauto01	-----处理登录奖励
+2015-03-05 21:59:41 INFO - API.info:37wan.2.dhdauto01	登录奖励处理完毕,设定隔天再次尝试
+2015-03-05 21:59:41 INFO - API.info:37wan.2.dhdauto01	-----处理主线城市开启
+2015-03-05 21:59:41 INFO - API.info:37wan.2.dhdauto01	挑战[檀溪],等级[2]
+2015-03-05 21:59:42 INFO - API.info:37wan.2.dhdauto01	前往地图[114]
+2015-03-05 21:59:42 INFO - API.info:37wan.2.dhdauto01	{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"PLEASE_CREATE_NICKNAME"}
+2015-03-05 21:59:42 INFO - API.info:37wan.2.dhdauto01	设定1小时后重新尝试挑战主线
+2015-03-05 21:59:42 INFO - API.info:37wan.2.dhdauto01	-----获取免费市场资源
+2015-03-05 21:59:42 INFO - API.info:37wan.2.dhdauto01	1小时后再次尝试领取免费资源
+2015-03-05 21:59:46 INFO - API.info:37wan.2.dhdauto01	-----尝试装备军械、招募升星、兵种进阶、技能升级
+2015-03-05 21:59:46 INFO - API.info:37wan.2.dhdauto01	需要军械[绿弓弩x250]进行升级
+2015-03-05 21:59:46 INFO - API.info:37wan.2.dhdauto01	需要军械[绿轻甲x150]进行升级
+2015-03-05 21:59:46 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试装备道具
+2015-03-05 21:59:46 INFO - API.info:37wan.2.dhdauto01	{"data":[{"chapter":1,"stages":[{"star":3,"rwd":false}],"difficult":"普通","gotStarNumRwds":[]}]}
+2015-03-05 21:59:47 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"LEVEL_TOO_LOW"}
+2015-03-05 21:59:47 INFO - API.info:37wan.2.dhdauto01	需求[绿弓弩x250],挑战Lv7的讨伐群雄
+2015-03-05 21:59:47 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"LEVEL_TOO_LOW"}
+2015-03-05 21:59:47 INFO - API.info:37wan.2.dhdauto01	挑战失败,放弃
+2015-03-05 21:59:51 INFO - API.info:37wan.2.dhdauto01	{"data":[{"chapter":1,"stages":[{"star":3,"rwd":false}],"difficult":"普通","gotStarNumRwds":[]}]}
+2015-03-05 21:59:51 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"LEVEL_TOO_LOW"}
+2015-03-05 21:59:52 INFO - API.info:37wan.2.dhdauto01	需求[绿弓弩x250],挑战Lv7的讨伐群雄
+2015-03-05 21:59:52 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"LEVEL_TOO_LOW"}
+2015-03-05 21:59:52 INFO - API.info:37wan.2.dhdauto01	挑战失败,放弃
+2015-03-05 22:03:05 INFO - 开始加载脚本库文件
+2015-03-05 22:03:06 INFO - 脚本库刷新完毕[41]
+2015-03-05 22:03:06 INFO - API.info:37wan.2.dhdauto01	尝试登录...
+2015-03-05 22:03:06 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 22:03:06 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 22:03:07 INFO - API.info:37wan.2.dhdauto01	解析出游戏连接[http://gameapp.37.com/controller/enter_game.php?game_id=292&sid=2&showlogintype=1]
+2015-03-05 22:03:07 INFO - API.info:37wan.2.dhdauto01	解析出gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:03:07 INFO - API.info:37wan.2.dhdauto01	解析出sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:03:07 INFO - API.info:37wan.2.dhdauto01	sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:03:07 INFO - API.info:37wan.2.dhdauto01	gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:03:07 INFO - API.info:37wan.2.dhdauto01	sock 登录...
+2015-03-05 22:03:08 INFO - API.info:37wan.2.dhdauto01	登录成功
+2015-03-05 22:03:08 INFO - API.info:37wan.2.dhdauto01	-----尝试更新引导,当前引导位置:-1
+2015-03-05 22:03:08 INFO - API.info:37wan.2.dhdauto01	1天后再次尝试更新引导信息
+2015-03-05 22:03:08 INFO - API.info:37wan.2.dhdauto01	-----尝试获取免费英雄
+2015-03-05 22:03:08 INFO - API.info:37wan.2.dhdauto01	当前时间不能免费获取英雄,需要等待[86189]秒
+2015-03-05 22:03:08 INFO - API.info:37wan.2.dhdauto01	-----尝试获取邮件
+2015-03-05 22:03:09 INFO - API.info:37wan.2.dhdauto01	邮件获取完毕,设定1小时后再次获取
+2015-03-05 22:03:09 INFO - API.info:37wan.2.dhdauto01	-----尝试装备军械、招募升星、兵种进阶、技能升级
+2015-03-05 22:03:10 INFO - API.info:37wan.2.dhdauto01	需要军械[绿弓弩x250]进行升级
+2015-03-05 22:03:10 INFO - API.info:37wan.2.dhdauto01	需要军械[绿轻甲x150]进行升级
+2015-03-05 22:03:10 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试装备道具
+2015-03-05 22:03:10 INFO - API.info:37wan.2.dhdauto01	{"data":[{"chapter":1,"stages":[{"star":3,"rwd":false}],"difficult":"普通","gotStarNumRwds":[]}]}
+2015-03-05 22:03:10 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"LEVEL_TOO_LOW"}
+2015-03-05 22:03:10 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"LEVEL_TOO_LOW"}
+2015-03-05 22:03:10 INFO - API.info:37wan.2.dhdauto01	挑战失败,放弃
+2015-03-05 22:03:10 INFO - API.info:37wan.2.dhdauto01	-----处理封地
+2015-03-05 22:03:10 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试
+2015-03-05 22:03:10 INFO - API.info:37wan.2.dhdauto01	-----尝试提交已经完成的任务
+2015-03-05 22:03:11 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试提交任务
+2015-03-05 22:03:11 INFO - API.info:37wan.2.dhdauto01	-----处理登录奖励
+2015-03-05 22:03:11 INFO - API.info:37wan.2.dhdauto01	登录奖励处理完毕,设定隔天再次尝试
+2015-03-05 22:03:11 INFO - API.info:37wan.2.dhdauto01	-----处理主线城市开启
+2015-03-05 22:03:11 INFO - API.info:37wan.2.dhdauto01	挑战[檀溪],等级[2]
+2015-03-05 22:03:11 INFO - API.info:37wan.2.dhdauto01	已经在地图[114]
+2015-03-05 22:03:11 INFO - API.info:37wan.2.dhdauto01	{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"PLEASE_CREATE_NICKNAME"}
+2015-03-05 22:03:11 INFO - API.info:37wan.2.dhdauto01	设定1小时后重新尝试挑战主线
+2015-03-05 22:03:11 INFO - API.info:37wan.2.dhdauto01	-----获取免费市场资源
+2015-03-05 22:03:11 INFO - API.info:37wan.2.dhdauto01	1小时后再次尝试领取免费资源
+2015-03-05 22:06:15 INFO - 开始加载脚本库文件
+2015-03-05 22:06:16 INFO - 脚本库刷新完毕[41]
+2015-03-05 22:06:17 INFO - API.info:37wan.2.dhdauto01	尝试登录...
+2015-03-05 22:06:17 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 22:06:17 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 22:06:17 INFO - API.info:37wan.2.dhdauto01	解析出游戏连接[http://gameapp.37.com/controller/enter_game.php?game_id=292&sid=2&showlogintype=1]
+2015-03-05 22:06:17 INFO - API.info:37wan.2.dhdauto01	解析出gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:06:17 INFO - API.info:37wan.2.dhdauto01	解析出sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:06:17 INFO - API.info:37wan.2.dhdauto01	sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:06:17 INFO - API.info:37wan.2.dhdauto01	gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:06:17 INFO - API.info:37wan.2.dhdauto01	sock 登录...
+2015-03-05 22:06:18 INFO - API.info:37wan.2.dhdauto01	登录成功
+2015-03-05 22:06:18 INFO - API.info:37wan.2.dhdauto01	-----尝试更新引导,当前引导位置:-1
+2015-03-05 22:06:18 INFO - API.info:37wan.2.dhdauto01	1天后再次尝试更新引导信息
+2015-03-05 22:06:18 INFO - API.info:37wan.2.dhdauto01	-----尝试获取免费英雄
+2015-03-05 22:06:19 INFO - API.info:37wan.2.dhdauto01	当前时间不能免费获取英雄,需要等待[85999]秒
+2015-03-05 22:06:19 INFO - API.info:37wan.2.dhdauto01	-----尝试获取邮件
+2015-03-05 22:06:19 INFO - API.info:37wan.2.dhdauto01	邮件获取完毕,设定1小时后再次获取
+2015-03-05 22:06:19 INFO - API.info:37wan.2.dhdauto01	-----尝试装备军械、招募升星、兵种进阶、技能升级
+2015-03-05 22:06:20 INFO - API.info:37wan.2.dhdauto01	需要军械[绿弓弩x250]进行升级
+2015-03-05 22:06:20 INFO - API.info:37wan.2.dhdauto01	需要军械[绿轻甲x150]进行升级
+2015-03-05 22:06:20 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试装备道具
+2015-03-05 22:06:20 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"LEVEL_TOO_LOW"}
+2015-03-05 22:06:20 INFO - API.info:37wan.2.dhdauto01	获取到相似度为[2]的录像
+2015-03-05 22:06:20 INFO - API.info:37wan.2.dhdauto01	开始战斗
+2015-03-05 22:06:21 INFO - API.info:37wan.2.dhdauto01	计算阵型
+2015-03-05 22:06:21 INFO - API.info:37wan.2.dhdauto01	等待战斗结果...
+2015-03-05 22:06:22 INFO - API.info:37wan.2.dhdauto01	战斗结果:[STARTED][WIN_1]
+2015-03-05 22:06:22 INFO - API.info:37wan.2.dhdauto01	计算阵型
+2015-03-05 22:06:22 INFO - API.info:37wan.2.dhdauto01	等待战斗结果...
+2015-03-05 22:06:23 INFO - API.info:37wan.2.dhdauto01	战斗结果:[PASS][WIN_1]
+2015-03-05 22:06:24 INFO - API.info:37wan.2.dhdauto01	战斗完毕
+2015-03-05 22:07:34 INFO - 开始加载脚本库文件
+2015-03-05 22:07:35 INFO - 脚本库刷新完毕[41]
+2015-03-05 22:07:36 INFO - API.info:37wan.2.dhdauto01	尝试登录...
+2015-03-05 22:07:36 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 22:07:36 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 22:07:46 INFO - API.info:37wan.2.dhdauto01	登录失败[java.net.SocketTimeoutException: connect timed out],重试
+2015-03-05 22:07:46 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 22:07:46 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 22:07:46 INFO - API.info:37wan.2.dhdauto01	解析出游戏连接[http://gameapp.37.com/controller/enter_game.php?game_id=292&sid=2&showlogintype=1]
+2015-03-05 22:07:56 INFO - API.info:37wan.2.dhdauto01	登录失败[java.net.SocketTimeoutException: connect timed out],重试
+2015-03-05 22:07:56 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 22:07:56 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 22:08:06 INFO - API.info:37wan.2.dhdauto01	登录失败[java.net.SocketTimeoutException: connect timed out],重试
+2015-03-05 22:08:06 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 22:08:06 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 22:08:06 INFO - API.info:37wan.2.dhdauto01	解析出游戏连接[http://gameapp.37.com/controller/enter_game.php?game_id=292&sid=2&showlogintype=1]
+2015-03-05 22:08:16 INFO - API.info:37wan.2.dhdauto01	登录失败[java.net.SocketTimeoutException: connect timed out],重试
+2015-03-05 22:08:16 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 22:08:16 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 22:08:16 INFO - API.info:37wan.2.dhdauto01	解析出游戏连接[http://gameapp.37.com/controller/enter_game.php?game_id=292&sid=2&showlogintype=1]
+2015-03-05 22:08:16 INFO - API.info:37wan.2.dhdauto01	解析出gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:08:16 INFO - API.info:37wan.2.dhdauto01	解析出sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:08:16 INFO - API.info:37wan.2.dhdauto01	sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:08:16 INFO - API.info:37wan.2.dhdauto01	gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:08:17 INFO - API.info:37wan.2.dhdauto01	sock 登录...
+2015-03-05 22:08:18 INFO - API.info:37wan.2.dhdauto01	登录成功
+2015-03-05 22:08:18 INFO - API.info:37wan.2.dhdauto01	-----尝试更新引导,当前引导位置:-1
+2015-03-05 22:08:18 INFO - API.info:37wan.2.dhdauto01	1天后再次尝试更新引导信息
+2015-03-05 22:08:18 INFO - API.info:37wan.2.dhdauto01	-----尝试获取免费英雄
+2015-03-05 22:08:18 INFO - API.info:37wan.2.dhdauto01	当前时间不能免费获取英雄,需要等待[85879]秒
+2015-03-05 22:08:18 INFO - API.info:37wan.2.dhdauto01	-----尝试获取邮件
+2015-03-05 22:08:19 INFO - API.info:37wan.2.dhdauto01	邮件获取完毕,设定1小时后再次获取
+2015-03-05 22:08:19 INFO - API.info:37wan.2.dhdauto01	-----尝试装备军械、招募升星、兵种进阶、技能升级
+2015-03-05 22:08:19 INFO - API.info:37wan.2.dhdauto01	需要军械[绿弓弩x250]进行升级
+2015-03-05 22:08:19 INFO - API.info:37wan.2.dhdauto01	需要军械[绿轻甲x150]进行升级
+2015-03-05 22:08:19 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试装备道具
+2015-03-05 22:08:19 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"LEVEL_TOO_LOW"}
+2015-03-05 22:08:19 INFO - API.info:37wan.2.dhdauto01	讨伐群雄剩余次数[4]
+2015-03-05 22:08:20 INFO - API.info:37wan.2.dhdauto01	获取到相似度为[2]的录像
+2015-03-05 22:08:20 INFO - API.info:37wan.2.dhdauto01	开始战斗
+2015-03-05 22:08:20 INFO - API.info:37wan.2.dhdauto01	计算阵型
+2015-03-05 22:08:20 INFO - API.info:37wan.2.dhdauto01	等待战斗结果...
+2015-03-05 22:08:21 INFO - API.info:37wan.2.dhdauto01	战斗结果:[STARTED][WIN_1]
+2015-03-05 22:08:21 INFO - API.info:37wan.2.dhdauto01	计算阵型
+2015-03-05 22:08:21 INFO - API.info:37wan.2.dhdauto01	等待战斗结果...
+2015-03-05 22:08:23 INFO - API.info:37wan.2.dhdauto01	战斗结果:[PASS][WIN_1]
+2015-03-05 22:08:23 INFO - API.info:37wan.2.dhdauto01	战斗完毕
+2015-03-05 22:08:23 INFO - API.info:37wan.2.dhdauto01	获取到相似度为[2]的录像
+2015-03-05 22:08:23 INFO - API.info:37wan.2.dhdauto01	开始战斗
+2015-03-05 22:08:23 INFO - API.info:37wan.2.dhdauto01	计算阵型
+2015-03-05 22:08:23 INFO - API.info:37wan.2.dhdauto01	等待战斗结果...
+2015-03-05 22:08:24 INFO - API.info:37wan.2.dhdauto01	战斗结果:[STARTED][WIN_1]
+2015-03-05 22:08:24 INFO - API.info:37wan.2.dhdauto01	计算阵型
+2015-03-05 22:08:24 INFO - API.info:37wan.2.dhdauto01	等待战斗结果...
+2015-03-05 22:08:25 INFO - API.info:37wan.2.dhdauto01	战斗结果:[PASS][WIN_1]
+2015-03-05 22:08:25 INFO - API.info:37wan.2.dhdauto01	战斗完毕
+2015-03-05 22:08:26 INFO - API.info:37wan.2.dhdauto01	获取到相似度为[2]的录像
+2015-03-05 22:08:26 INFO - API.info:37wan.2.dhdauto01	开始战斗
+2015-03-05 22:08:26 INFO - API.info:37wan.2.dhdauto01	计算阵型
+2015-03-05 22:08:26 INFO - API.info:37wan.2.dhdauto01	等待战斗结果...
+2015-03-05 22:08:27 INFO - API.info:37wan.2.dhdauto01	战斗结果:[STARTED][WIN_1]
+2015-03-05 22:08:27 INFO - API.info:37wan.2.dhdauto01	计算阵型
+2015-03-05 22:08:27 INFO - API.info:37wan.2.dhdauto01	等待战斗结果...
+2015-03-05 22:08:28 INFO - API.info:37wan.2.dhdauto01	战斗结果:[PASS][WIN_1]
+2015-03-05 22:08:28 INFO - API.info:37wan.2.dhdauto01	战斗完毕
+2015-03-05 22:08:28 INFO - API.info:37wan.2.dhdauto01	获取到相似度为[2]的录像
+2015-03-05 22:08:28 INFO - API.info:37wan.2.dhdauto01	开始战斗
+2015-03-05 22:08:28 INFO - API.info:37wan.2.dhdauto01	计算阵型
+2015-03-05 22:08:29 INFO - API.info:37wan.2.dhdauto01	等待战斗结果...
+2015-03-05 22:08:29 INFO - API.info:37wan.2.dhdauto01	战斗结果:[STARTED][WIN_1]
+2015-03-05 22:08:29 INFO - API.info:37wan.2.dhdauto01	计算阵型
+2015-03-05 22:08:29 INFO - API.info:37wan.2.dhdauto01	等待战斗结果...
+2015-03-05 22:08:30 INFO - API.info:37wan.2.dhdauto01	战斗结果:[PASS][WIN_1]
+2015-03-05 22:08:30 INFO - API.info:37wan.2.dhdauto01	战斗完毕
+2015-03-05 22:08:30 INFO - API.info:37wan.2.dhdauto01	-----处理封地
+2015-03-05 22:08:31 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试
+2015-03-05 22:08:31 INFO - API.info:37wan.2.dhdauto01	-----尝试提交已经完成的任务
+2015-03-05 22:08:31 INFO - API.info:37wan.2.dhdauto01	提交任务[5]:{"taskId":5}
+2015-03-05 22:08:31 INFO - API.info:37wan.2.dhdauto01	提交任务[31733]:{"taskId":31733}
+2015-03-05 22:08:31 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试提交任务
+2015-03-05 22:08:31 INFO - API.info:37wan.2.dhdauto01	-----处理登录奖励
+2015-03-05 22:08:31 INFO - API.info:37wan.2.dhdauto01	登录奖励处理完毕,设定隔天再次尝试
+2015-03-05 22:08:31 INFO - API.info:37wan.2.dhdauto01	-----处理主线城市开启
+2015-03-05 22:08:32 INFO - API.info:37wan.2.dhdauto01	挑战[檀溪],等级[2]
+2015-03-05 22:08:32 INFO - API.info:37wan.2.dhdauto01	已经在地图[114]
+2015-03-05 22:08:32 INFO - API.info:37wan.2.dhdauto01	{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"PLEASE_CREATE_NICKNAME"}
+2015-03-05 22:08:32 INFO - API.info:37wan.2.dhdauto01	设定1小时后重新尝试挑战主线
+2015-03-05 22:08:32 INFO - API.info:37wan.2.dhdauto01	-----获取免费市场资源
+2015-03-05 22:08:32 INFO - API.info:37wan.2.dhdauto01	1小时后再次尝试领取免费资源
+2015-03-05 22:08:36 INFO - API.info:37wan.2.dhdauto01	-----尝试装备军械、招募升星、兵种进阶、技能升级
+2015-03-05 22:08:36 INFO - API.info:37wan.2.dhdauto01	许褚等级到[24],需要经验:2204
+2015-03-05 22:08:36 INFO - API.info:37wan.2.dhdauto01	对英雄[许褚]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":61,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:36 INFO - API.info:37wan.2.dhdauto01	对英雄[许褚]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":60,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:36 INFO - API.info:37wan.2.dhdauto01	对英雄[许褚]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":59,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	对英雄[许褚]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":58,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	对英雄[许褚]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":57,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	于禁等级到[24],需要经验:1724
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	对英雄[于禁]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":56,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	对英雄[于禁]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":55,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	对英雄[于禁]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":54,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	对英雄[于禁]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":53,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	曹仁等级到[24],需要经验:1573
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	对英雄[曹仁]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":52,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	对英雄[曹仁]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":51,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	对英雄[曹仁]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":50,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	对英雄[曹仁]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":49,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	徐晃等级到[24],需要经验:1990
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	对英雄[徐晃]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":48,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	对英雄[徐晃]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":47,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:37 INFO - API.info:37wan.2.dhdauto01	对英雄[徐晃]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":46,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:38 INFO - API.info:37wan.2.dhdauto01	对英雄[徐晃]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":45,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:38 INFO - API.info:37wan.2.dhdauto01	吕绮玲等级到[24],需要经验:1680
+2015-03-05 22:08:38 INFO - API.info:37wan.2.dhdauto01	对英雄[吕绮玲]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":44,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:38 INFO - API.info:37wan.2.dhdauto01	对英雄[吕绮玲]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":43,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:38 INFO - API.info:37wan.2.dhdauto01	对英雄[吕绮玲]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":42,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:38 INFO - API.info:37wan.2.dhdauto01	对英雄[吕绮玲]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":41,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:38 INFO - API.info:37wan.2.dhdauto01	需要军械[绿弓弩x250]进行升级
+2015-03-05 22:08:38 INFO - API.info:37wan.2.dhdauto01	贾诩等级到[24],需要经验:1644
+2015-03-05 22:08:38 INFO - API.info:37wan.2.dhdauto01	对英雄[贾诩]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":40,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:38 INFO - API.info:37wan.2.dhdauto01	对英雄[贾诩]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":39,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:38 INFO - API.info:37wan.2.dhdauto01	对英雄[贾诩]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":38,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:38 INFO - API.info:37wan.2.dhdauto01	对英雄[贾诩]使用[经验丹（绿）]:{"_rs":1,"_type":"SCBagUpdate","updated":[{"idx":9,"n":37,"us":true,"nm":"经验丹（绿）"}]}
+2015-03-05 22:08:38 INFO - API.info:37wan.2.dhdauto01	需要军械[绿轻甲x150]进行升级
+2015-03-05 22:08:38 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试装备道具
+2015-03-05 22:08:38 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR"}
+2015-03-05 22:08:39 INFO - API.info:37wan.2.dhdauto01	讨伐群雄剩余次数[0]
+2015-03-05 22:08:39 INFO - API.info:37wan.2.dhdauto01	-----尝试提交已经完成的任务
+2015-03-05 22:08:39 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试提交任务
+2015-03-05 22:08:39 INFO - API.info:37wan.2.dhdauto01	-----处理主线城市开启
+2015-03-05 22:08:39 INFO - API.info:37wan.2.dhdauto01	挑战[檀溪],等级[2]
+2015-03-05 22:08:39 INFO - API.info:37wan.2.dhdauto01	已经在地图[114]
+2015-03-05 22:08:39 INFO - API.info:37wan.2.dhdauto01	{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"PLEASE_CREATE_NICKNAME"}
+2015-03-05 22:08:39 INFO - API.info:37wan.2.dhdauto01	设定1小时后重新尝试挑战主线
+2015-03-05 22:08:43 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR"}
+2015-03-05 22:08:44 INFO - API.info:37wan.2.dhdauto01	讨伐群雄剩余次数[0]
+2015-03-05 22:08:48 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR"}
+2015-03-05 22:08:48 INFO - API.info:37wan.2.dhdauto01	讨伐群雄剩余次数[0]
+2015-03-05 22:08:53 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR"}
+2015-03-05 22:08:53 INFO - API.info:37wan.2.dhdauto01	讨伐群雄剩余次数[0]
+2015-03-05 22:08:57 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR"}
+2015-03-05 22:08:57 INFO - API.info:37wan.2.dhdauto01	讨伐群雄剩余次数[0]
+2015-03-05 22:11:41 INFO - 开始加载脚本库文件
+2015-03-05 22:11:43 INFO - 脚本库刷新完毕[41]
+2015-03-05 22:11:43 INFO - API.info:37wan.2.dhdauto01	尝试登录...
+2015-03-05 22:11:43 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 22:11:43 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 22:11:43 INFO - API.info:37wan.2.dhdauto01	解析出游戏连接[http://gameapp.37.com/controller/enter_game.php?game_id=292&sid=2&showlogintype=1]
+2015-03-05 22:11:43 INFO - API.info:37wan.2.dhdauto01	解析出gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:11:43 INFO - API.info:37wan.2.dhdauto01	解析出sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:11:43 INFO - API.info:37wan.2.dhdauto01	sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:11:43 INFO - API.info:37wan.2.dhdauto01	gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:11:43 INFO - API.info:37wan.2.dhdauto01	sock 登录...
+2015-03-05 22:11:50 INFO - 开始加载脚本库文件
+2015-03-05 22:12:06 INFO - 脚本库刷新完毕[41]
+2015-03-05 22:12:06 INFO - API.info:37wan.2.dhdauto01	尝试登录...
+2015-03-05 22:12:06 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 22:12:06 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 22:12:06 INFO - API.info:37wan.2.dhdauto01	解析出游戏连接[http://gameapp.37.com/controller/enter_game.php?game_id=292&sid=2&showlogintype=1]
+2015-03-05 22:12:07 INFO - API.info:37wan.2.dhdauto01	解析出gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:12:07 INFO - API.info:37wan.2.dhdauto01	解析出sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:12:07 INFO - API.info:37wan.2.dhdauto01	sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:12:07 INFO - API.info:37wan.2.dhdauto01	gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:12:07 INFO - API.info:37wan.2.dhdauto01	sock 登录...
+2015-03-05 22:12:08 INFO - API.info:37wan.2.dhdauto01	登录成功
+2015-03-05 22:12:08 INFO - API.info:37wan.2.dhdauto01	-----尝试更新引导,当前引导位置:-1
+2015-03-05 22:12:08 INFO - API.info:37wan.2.dhdauto01	1天后再次尝试更新引导信息
+2015-03-05 22:12:08 INFO - API.info:37wan.2.dhdauto01	-----尝试获取免费英雄
+2015-03-05 22:12:08 INFO - API.info:37wan.2.dhdauto01	当前时间不能免费获取英雄,需要等待[85649]秒
+2015-03-05 22:12:08 INFO - API.info:37wan.2.dhdauto01	-----尝试获取邮件
+2015-03-05 22:12:09 INFO - API.info:37wan.2.dhdauto01	邮件获取完毕,设定1小时后再次获取
+2015-03-05 22:12:09 INFO - API.info:37wan.2.dhdauto01	-----尝试装备军械、招募升星、兵种进阶、技能升级
+2015-03-05 22:12:09 INFO - API.info:37wan.2.dhdauto01	英雄[许褚],技能[1]提升:{"ok":1}
+2015-03-05 22:12:10 INFO - API.info:37wan.2.dhdauto01	英雄[许褚],技能[1]提升:{"ok":1}
+2015-03-05 22:12:10 INFO - API.info:37wan.2.dhdauto01	英雄[于禁],技能[1]提升:{"ok":1}
+2015-03-05 22:12:10 INFO - API.info:37wan.2.dhdauto01	英雄[于禁],技能[1]提升:{"ok":1}
+2015-03-05 22:12:10 INFO - API.info:37wan.2.dhdauto01	英雄[曹仁],技能[1]提升:{"ok":1}
+2015-03-05 22:12:10 INFO - API.info:37wan.2.dhdauto01	英雄[曹仁],技能[1]提升:{"ok":1}
+2015-03-05 22:12:10 INFO - API.info:37wan.2.dhdauto01	英雄[徐晃],技能[1]提升:{"ok":1}
+2015-03-05 22:12:10 INFO - API.info:37wan.2.dhdauto01	英雄[徐晃],技能[1]提升:{"ok":1}
+2015-03-05 22:12:10 INFO - API.info:37wan.2.dhdauto01	需要军械[绿弓弩x250]进行升级
+2015-03-05 22:12:10 INFO - API.info:37wan.2.dhdauto01	英雄[吕绮玲],装备军械[绿马][300]
+2015-03-05 22:12:10 INFO - API.info:37wan.2.dhdauto01	英雄[吕绮玲],技能[1]提升:{"ok":1}
+2015-03-05 22:12:10 INFO - API.info:37wan.2.dhdauto01	英雄[吕绮玲],技能[1]提升:{"ok":1}
+2015-03-05 22:12:10 INFO - API.info:37wan.2.dhdauto01	需要军械[绿轻甲x150]进行升级
+2015-03-05 22:12:10 INFO - API.info:37wan.2.dhdauto01	英雄[贾诩],技能[1]提升:{"ok":1}
+2015-03-05 22:12:10 INFO - API.info:37wan.2.dhdauto01	英雄[贾诩],技能[1]提升:{"ok":1}
+2015-03-05 22:12:10 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试装备道具
+2015-03-05 22:12:41 INFO - 开始加载脚本库文件
+2015-03-05 22:12:57 INFO - 脚本库刷新完毕[41]
+2015-03-05 22:12:57 INFO - API.info:37wan.2.dhdauto01	尝试登录...
+2015-03-05 22:12:57 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 22:12:57 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 22:12:57 INFO - API.info:37wan.2.dhdauto01	解析出游戏连接[http://gameapp.37.com/controller/enter_game.php?game_id=292&sid=2&showlogintype=1]
+2015-03-05 22:12:58 INFO - API.info:37wan.2.dhdauto01	解析出gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:12:58 INFO - API.info:37wan.2.dhdauto01	解析出sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:12:58 INFO - API.info:37wan.2.dhdauto01	sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:12:58 INFO - API.info:37wan.2.dhdauto01	gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:12:58 INFO - API.info:37wan.2.dhdauto01	sock 登录...
+2015-03-05 22:12:59 INFO - API.info:37wan.2.dhdauto01	登录成功
+2015-03-05 22:12:59 INFO - API.info:37wan.2.dhdauto01	{"EXP":"200","UNDERGO_EXP":"0","LEVEL_UP_EXP":"1900","LEVEL":"24","VIP_LEVEL":"0","GOLD":"1390","SILVER":"143425","FOOD":"176458","EXPLOIT":"0","ARENA_COIN":"0","XIYU_COIN":"0","MAX_FOOD":"100000","MAX_SILVER":"100000","MAX_IRON":"10000","CORPS_NAME":"undefined","IRON":"0","ICON":"600001","PLATFORM_MARK":"0","LONGMARCH_COIN":"0","CSKING_COIN":"0"}
+2015-03-05 22:12:59 INFO - API.info:37wan.2.dhdauto01	-----尝试更新引导,当前引导位置:-1
+2015-03-05 22:12:59 INFO - API.info:37wan.2.dhdauto01	1天后再次尝试更新引导信息
+2015-03-05 22:12:59 INFO - API.info:37wan.2.dhdauto01	-----尝试获取免费英雄
+2015-03-05 22:12:59 INFO - API.info:37wan.2.dhdauto01	当前时间不能免费获取英雄,需要等待[85598]秒
+2015-03-05 22:12:59 INFO - API.info:37wan.2.dhdauto01	-----尝试获取邮件
+2015-03-05 22:13:00 INFO - API.info:37wan.2.dhdauto01	邮件获取完毕,设定1小时后再次获取
+2015-03-05 22:13:00 INFO - API.info:37wan.2.dhdauto01	-----尝试装备军械、招募升星、兵种进阶、技能升级
+2015-03-05 22:13:01 INFO - API.info:37wan.2.dhdauto01	需要军械[绿弓弩x250]进行升级
+2015-03-05 22:13:01 INFO - API.info:37wan.2.dhdauto01	需要军械[绿轻甲x150]进行升级
+2015-03-05 22:13:01 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试装备道具
+2015-03-05 22:13:01 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR"}
+2015-03-05 22:13:01 INFO - API.info:37wan.2.dhdauto01	讨伐群雄剩余次数[0]
+2015-03-05 22:13:01 INFO - API.info:37wan.2.dhdauto01	-----处理封地
+2015-03-05 22:13:02 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试
+2015-03-05 22:13:02 INFO - API.info:37wan.2.dhdauto01	-----尝试提交已经完成的任务
+2015-03-05 22:17:54 INFO - 开始加载脚本库文件
+2015-03-05 22:18:10 INFO - 脚本库刷新完毕[41]
+2015-03-05 22:18:10 INFO - API.info:37wan.2.dhdauto01	尝试登录...
+2015-03-05 22:18:10 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 22:18:10 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 22:18:10 INFO - API.info:37wan.2.dhdauto01	解析出游戏连接[http://gameapp.37.com/controller/enter_game.php?game_id=292&sid=2&showlogintype=1]
+2015-03-05 22:18:10 INFO - API.info:37wan.2.dhdauto01	解析出gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:18:10 INFO - API.info:37wan.2.dhdauto01	解析出sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:18:10 INFO - API.info:37wan.2.dhdauto01	sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:18:10 INFO - API.info:37wan.2.dhdauto01	gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:18:10 INFO - API.info:37wan.2.dhdauto01	sock 登录...
+2015-03-05 22:18:11 INFO - API.info:37wan.2.dhdauto01	登录成功
+2015-03-05 22:18:12 INFO - API.info:37wan.2.dhdauto01	-----尝试更新引导,当前引导位置:-1
+2015-03-05 22:18:12 INFO - API.info:37wan.2.dhdauto01	1天后再次尝试更新引导信息
+2015-03-05 22:18:12 INFO - API.info:37wan.2.dhdauto01	-----尝试获取免费英雄
+2015-03-05 22:18:12 INFO - API.info:37wan.2.dhdauto01	当前时间不能免费获取英雄,需要等待[85286]秒
+2015-03-05 22:18:12 INFO - API.info:37wan.2.dhdauto01	-----尝试获取邮件
+2015-03-05 22:18:13 INFO - API.info:37wan.2.dhdauto01	邮件获取完毕,设定1小时后再次获取
+2015-03-05 22:18:13 INFO - API.info:37wan.2.dhdauto01	-----尝试装备军械、招募升星、兵种进阶、技能升级
+2015-03-05 22:18:13 INFO - API.info:37wan.2.dhdauto01	需要军械[绿弓弩x250]进行升级
+2015-03-05 22:18:13 INFO - API.info:37wan.2.dhdauto01	需要军械[绿轻甲x150]进行升级
+2015-03-05 22:18:13 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试装备道具
+2015-03-05 22:18:14 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR"}
+2015-03-05 22:18:14 INFO - API.info:37wan.2.dhdauto01	讨伐群雄剩余次数[0]
+2015-03-05 22:18:14 INFO - API.info:37wan.2.dhdauto01	-----处理封地
+2015-03-05 22:18:14 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试
+2015-03-05 22:18:14 INFO - API.info:37wan.2.dhdauto01	-----尝试提交已经完成的任务
+2015-03-05 22:18:14 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试提交任务
+2015-03-05 22:18:14 INFO - API.info:37wan.2.dhdauto01	-----处理登录奖励
+2015-03-05 22:18:14 INFO - API.info:37wan.2.dhdauto01	登录奖励处理完毕,设定隔天再次尝试
+2015-03-05 22:18:14 INFO - API.info:37wan.2.dhdauto01	-----处理主线城市开启
+2015-03-05 22:18:15 INFO - API.info:37wan.2.dhdauto01	挑战[檀溪],等级[2]
+2015-03-05 22:18:15 INFO - API.info:37wan.2.dhdauto01	已经在地图[114]
+2015-03-05 22:18:15 INFO - API.info:37wan.2.dhdauto01	{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"PLEASE_CREATE_NICKNAME"}
+2015-03-05 22:18:15 INFO - API.info:37wan.2.dhdauto01	设定1小时后重新尝试挑战主线
+2015-03-05 22:18:15 INFO - API.info:37wan.2.dhdauto01	-----获取免费市场资源
+2015-03-05 22:18:15 INFO - API.info:37wan.2.dhdauto01	1小时后再次尝试领取免费资源
+2015-03-05 22:24:55 INFO - 开始加载脚本库文件
+2015-03-05 22:25:10 INFO - 脚本库刷新完毕[41]
+2015-03-05 22:25:10 INFO - API.info:37wan.2.dhdauto01	尝试登录...
+2015-03-05 22:25:10 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 22:25:10 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 22:25:10 INFO - API.info:37wan.2.dhdauto01	解析出游戏连接[http://gameapp.37.com/controller/enter_game.php?game_id=292&sid=2&showlogintype=1]
+2015-03-05 22:25:11 INFO - API.info:37wan.2.dhdauto01	解析出gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:25:11 INFO - API.info:37wan.2.dhdauto01	解析出sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:25:11 INFO - API.info:37wan.2.dhdauto01	sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:25:11 INFO - API.info:37wan.2.dhdauto01	gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:25:11 INFO - API.info:37wan.2.dhdauto01	sock 登录...
+2015-03-05 22:25:12 INFO - API.info:37wan.2.dhdauto01	登录成功
+2015-03-05 22:25:12 INFO - API.info:37wan.2.dhdauto01	-----尝试更新引导,当前引导位置:-1
+2015-03-05 22:25:12 INFO - API.info:37wan.2.dhdauto01	1天后再次尝试更新引导信息
+2015-03-05 22:25:12 INFO - API.info:37wan.2.dhdauto01	-----尝试获取免费英雄
+2015-03-05 22:25:12 INFO - API.info:37wan.2.dhdauto01	当前时间不能免费获取英雄,需要等待[84865]秒
+2015-03-05 22:25:13 INFO - API.info:37wan.2.dhdauto01	-----尝试获取邮件
+2015-03-05 22:25:13 INFO - API.info:37wan.2.dhdauto01	邮件获取完毕,设定1小时后再次获取
+2015-03-05 22:25:13 INFO - API.info:37wan.2.dhdauto01	-----尝试装备军械、招募升星、兵种进阶、技能升级
+2015-03-05 22:25:14 INFO - API.info:37wan.2.dhdauto01	需要军械[绿弓弩x250]进行升级
+2015-03-05 22:25:14 INFO - API.info:37wan.2.dhdauto01	需要军械[绿轻甲x150]进行升级
+2015-03-05 22:25:14 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试装备道具
+2015-03-05 22:25:14 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR"}
+2015-03-05 22:25:14 INFO - API.info:37wan.2.dhdauto01	讨伐群雄剩余次数[0]
+2015-03-05 22:25:14 INFO - API.info:37wan.2.dhdauto01	-----处理封地
+2015-03-05 22:25:15 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试
+2015-03-05 22:25:15 INFO - API.info:37wan.2.dhdauto01	-----尝试提交已经完成的任务
+2015-03-05 22:25:15 INFO - API.info:37wan.2.dhdauto01	1分钟后再次尝试提交任务
+2015-03-05 22:25:15 INFO - API.info:37wan.2.dhdauto01	-----处理登录奖励
+2015-03-05 22:25:15 INFO - API.info:37wan.2.dhdauto01	登录奖励处理完毕,设定隔天再次尝试
+2015-03-05 22:25:15 INFO - API.info:37wan.2.dhdauto01	-----处理主线城市开启
+2015-03-05 22:25:15 INFO - API.info:37wan.2.dhdauto01	挑战[檀溪],等级[2]
+2015-03-05 22:25:15 INFO - API.info:37wan.2.dhdauto01	已经在地图[114]
+2015-03-05 22:25:15 INFO - API.info:37wan.2.dhdauto01	{"_rs":1,"_type":"SCPrompt","style":"ERROR","prompt":"PLEASE_CREATE_NICKNAME"}
+2015-03-05 22:25:15 INFO - API.info:37wan.2.dhdauto01	设定1小时后重新尝试挑战主线
+2015-03-05 22:25:15 INFO - API.info:37wan.2.dhdauto01	-----获取免费市场资源
+2015-03-05 22:25:15 INFO - API.info:37wan.2.dhdauto01	1小时后再次尝试领取免费资源
+2015-03-05 22:25:20 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR"}
+2015-03-05 22:25:20 INFO - API.info:37wan.2.dhdauto01	讨伐群雄剩余次数[0]
+2015-03-05 22:25:25 INFO - API.info:37wan.2.dhdauto01	Campaign.eliteFight失败:{"_rs":1,"_type":"SCPrompt","style":"ERROR"}
+2015-03-05 22:25:25 INFO - API.info:37wan.2.dhdauto01	讨伐群雄剩余次数[0]
+2015-03-05 22:27:01 INFO - 开始加载脚本库文件
+2015-03-05 22:27:16 INFO - 脚本库刷新完毕[41]
+2015-03-05 22:27:16 INFO - API.info:37wan.2.dhdauto01	尝试登录...
+2015-03-05 22:27:16 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 22:27:16 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 22:27:26 INFO - API.info:37wan.2.dhdauto01	登录失败[java.net.SocketTimeoutException: connect timed out],重试
+2015-03-05 22:27:26 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 22:27:26 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 22:27:27 INFO - API.info:37wan.2.dhdauto01	解析出游戏连接[http://gameapp.37.com/controller/enter_game.php?game_id=292&sid=2&showlogintype=1]
+2015-03-05 22:27:27 INFO - API.info:37wan.2.dhdauto01	解析出gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:27:27 INFO - API.info:37wan.2.dhdauto01	解析出sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:27:27 INFO - API.info:37wan.2.dhdauto01	sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:27:27 INFO - API.info:37wan.2.dhdauto01	gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:27:27 INFO - API.info:37wan.2.dhdauto01	sock 登录...
+2015-03-05 22:27:28 INFO - API.info:37wan.2.dhdauto01	登录成功
+2015-03-05 22:27:28 INFO - API.info:37wan.2.dhdauto01	dhdauto01
+2015-03-05 22:30:00 INFO - 开始加载脚本库文件
+2015-03-05 22:30:16 INFO - 脚本库刷新完毕[41]
+2015-03-05 22:30:17 INFO - API.info:37wan.2.dhdauto01	尝试登录...
+2015-03-05 22:30:17 INFO - API.info:37wan.2.dhdauto01	不需要再登录,已经保存有cookie信息
+2015-03-05 22:30:17 INFO - API.info:37wan.2.dhdauto01	进入游戏跳转页[http://game.37.com/play.php?game_id=292&sid=2]
+2015-03-05 22:30:17 INFO - API.info:37wan.2.dhdauto01	解析出游戏连接[http://gameapp.37.com/controller/enter_game.php?game_id=292&sid=2&showlogintype=1]
+2015-03-05 22:30:17 INFO - API.info:37wan.2.dhdauto01	解析出gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:30:17 INFO - API.info:37wan.2.dhdauto01	解析出sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:30:17 INFO - API.info:37wan.2.dhdauto01	sid[d883597992ae536fb03c339218073a03035d3a74]
+2015-03-05 22:30:17 INFO - API.info:37wan.2.dhdauto01	gateway[http://s2.dhd.37wan.com/m.do]
+2015-03-05 22:30:17 INFO - API.info:37wan.2.dhdauto01	sock 登录...
+2015-03-05 22:30:18 INFO - API.info:37wan.2.dhdauto01	登录成功
+2015-03-05 22:30:18 INFO - API.info:37wan.2.dhdauto01	xxxxxxxxxxxxxxxxxxx

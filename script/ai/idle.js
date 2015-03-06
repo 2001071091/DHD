@@ -10,10 +10,23 @@ function loop(client, args) {
     var now = API.now();
     var result = client.sendAct("System.ping", {clientTime: now});
     client.props.timeoffset = Number(result.serverTime) - Number(result.clientTime);
-    if(lv>10&&client.props.nickName==client.userName){
-        //client.info("xxxxxxxxxxxxxxxxxxx")
-        API.sleep(100000000000000);
-        client.sendAct("Player.createNcikname", {nickname: ""});
+    if (lv > 10 && client.props.nickName == client.userName) {//尝试创建昵称
+        var prefix = API.context.getConfig("playerRandomNamePrefix");
+        var first = API.context.getConfig("playerRandomNameFirst");
+        var last = API.context.getConfig("playerRandomNameLast");
+
+        while (true) {
+            result = client.sendAct("Player.createNcikname", {nickname:
+                        prefix[Math.floor(Math.random() * prefix.length)]
+                        + first[Math.floor(Math.random() * first.length)]
+                        + last[Math.floor(Math.random() * last.length)]});
+            client.info(API.encodeJson(result));
+            if (result.rsesp == "NICKENAME_CREATE_SUCC") {
+                client.info("创建昵称:" + result.nickname);
+                break;
+            }
+        }
+
     }
     //处理引导
     client.runAI("guide");
@@ -41,7 +54,7 @@ function loop(client, args) {
     if (lv >= 10)
         client.runAI("market");
     //民生
-    if (lv >= 30)
+    if (lv >= 35)
         client.runAI("patrol");
     //皇榜
 

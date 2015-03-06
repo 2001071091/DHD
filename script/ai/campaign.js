@@ -6,7 +6,9 @@
 function loop(client, args) {
     var ret = client.sendAct("Campaign.eliteGetAllInfos");
     //client.info(API.encodeJson(ret));
-    var lv = ret.data.length;
+    //API.sleep(100000000);
+    var lv = ret.data.length == 0 ? 0 :
+            ret.data.length * 5 - (5 - ret.data[ret.data.length - 1].stages.length);
 
     client.runAI("state", 0x08);
 
@@ -23,9 +25,9 @@ function loop(client, args) {
 
     var config = API.context.getConfig("eliteFBRandomReward");
     //client.info(API.encodeJson(config));
-    
+
     lv--;
-    client.info("讨伐群雄剩余次数["+ret.elite+"]");
+    client.info("讨伐群雄剩余次数[" + ret.elite + "]");
     //挑战已经通关单 讨伐群雄 获得奖励[首先尝试最需要的军械装备]
     while (ret.elite > 0) {//如果 讨伐群雄 次数大于0
         var index = lv;
@@ -55,8 +57,8 @@ function loop(client, args) {
 
 
 function deal(client, lv) {
-    var stage = Math.floor(lv / 5) + 1;
-    var chapter = lv % 5 + 1;
+    var chapter = Math.floor(lv / 5) + 1;
+    var stage = lv % 5 + 1;
     //发起攻击
     //{"act":"Campaign.eliteFight","sid":"d883597992ae536fb03c3392eea62a85493b269e","body":"{\"stage\":1,\"chapter\":1,\"difficult\":\"普通\"}"}
     var result = client.sendAct("Campaign.eliteFight", {stage: stage, chapter: chapter, difficult: "普通"});
