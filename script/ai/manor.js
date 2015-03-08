@@ -29,7 +29,7 @@ var upInfoTables = {
     , LTC: "ironfactoryUpInfo"
 }
 
-//建造优先级
+//建造优先级,优先升级
 var prior = ["牧场"
             , "商铺"
             , "农田"
@@ -58,6 +58,8 @@ function loop(client, args) {
     //{"act":"Manor.getManorInfo","sid":"d883597992ae536fb03c339254f99cef422003e8"}
     //"incpercent":[{"resource":"FOOD","percent":0},{"resource":"SILVER","percent":0}],"buildings":[{"levelSeconds":0,"field":1,"heroIndex":0,"level":1,"type":"OFFICE","produceSeconds":0,"leftSeconds":0,"products":0},{"levelSeconds":0,"field":2,"heroIndex":0,"level":1,"type":"LC","produceSeconds":0,"leftSeconds":0,"products":0},{"levelSeconds":0,"field":3,"heroIndex":0,"level":1,"type":"YK","produceSeconds":0,"leftSeconds":0,"products":0},{"levelSeconds":0,"field":4,"heroIndex":0,"level":1,"type":"NT","produceSeconds":0,"leftSeconds":0,"products":19728},{"levelSeconds":0,"field":5,"heroIndex":0,"level":1,"type":"MH","produceSeconds":0,"leftSeconds":0,"products":9792},{"levelSeconds":0,"field":6,"heroIndex":0,"level":1,"type":"NT","produceSeconds":0,"leftSeconds":0,"products":19728}],"num":2,"fields":[1,2,3,4,5,6,7]}
     ret = client.sendAct("Manor.getManorInfo");
+    //client.info(API.encodeJson(ret));
+    //API.sleep(1000000000000000);
     var fields = ret.fields;
     var buildings = ret.buildings;//{field:?,type:"OFFICE"/"LC"/"YK/"NT"/"MH",leve:?,levelSeconds:?,heroIndex:?,leftSeconds:?,products:?,produceSeconds:?}
     var incpercent = ret.incpercent;//{resource:"SILVER"/"FOOD"/"IRON",percent:?}
@@ -130,6 +132,8 @@ function loop(client, args) {
         var field = fields[i];
         if (building_index[field] != null)
             continue;
+        if (!hasQueue(client, num, now))
+            break;
         for (var j = 0; j < prior.length; j++) {
             var name = prior[j];
             var type = types[name];
@@ -148,6 +152,7 @@ function loop(client, args) {
                     client.info("建造[" + name + "]成功");
                     client.props.task_nextTime = 0;
                     buildSomething = true;
+                    doQueue(client, num, now, 1);
                     break;
                 } else {
                     client.info(API.encodeJson(ret));
@@ -166,12 +171,15 @@ function loop(client, args) {
     }
 
     //处理建筑升级
-    for (var i = 0; i < buildings.length; i++) {
-        var type = buildings[i].type;
-        if (type == "OFFICE")
-            continue;
-        tryBuildUpgrade(client, num, now, buildings[i], mainLv);
+    for (var j = 0; j < prior.length; j++) {
+        var type = types[prior[j]];
+        for (var i = 0; i < buildings.length; i++) {
+            if (type != buildings[i].type)
+                continue;
+            tryBuildUpgrade(client, num, now, buildings[i], mainLv);
+        }
     }
+
 
     client.info("1分钟后再次尝试");
     client.props.manor_nextTime = now + 60000;
@@ -220,7 +228,7 @@ function tryBuildUpgrade(client, num, now, build, mainLv) {
             //{"building":{"field":1,"type":"OFFICE","level":1,"levelSeconds":61,"heroIndex":0,"leftSeconds":0,"products":0,"produceSeconds":0}}
             client.sendAct("Manor.upgradeBuilding", {field: build.field});
             doQueue(client, num, now, upInfo[build.level][4]);
-            client.info("开始[" + build.type + "]Lv" + mainLv + "升级,时间" + upInfo[build.level][4] + "秒");
+            client.info("开始[" + build.type + "]Lv" + (build.level+1) + "升级,时间" + upInfo[build.level][4] + "秒");
             build.level++;
             build.levelSeconds = upInfo[build.level][4] + 1;
             gold -= upInfo[build.level][2];
