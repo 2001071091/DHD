@@ -27,8 +27,8 @@ public class Boot {
         Script.japiInstance = "org.xl.dhd.API;API.context=org.xl.dhd.Context";
         Context.loadScript();
 
-        //API.info(API.encodeJson(Context.getConfig("playerRandomNameLast")));
-        //API.info(API.encodeJson(Context.getConfig("hero")));
+        //API.info(API.encodeJson(Context.getConfig("playoperRandomNameLast")));
+        //API.info(API.encodeJson(Context.getConfig("ranchUpInfo")));
         //API.sleep(10000000);
         /**
          * 加载路径
