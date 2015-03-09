@@ -120,7 +120,15 @@ public class DHDClient implements Runnable {
     public Object sendAct(String act, Object body) throws IOException, JSONException {
         String request = "{\"act\":\"" + StringOp.stringToScriptString(act) + "\"" + (sid != null ? ",\"sid\":\"" + sid + "\"" : "") + "" + (body != null ? ",\"body\":\"" + StringOp.stringToScriptString(Script.encodeJson(body)) + "\"" : "") + "}";
         //info(request);
-        String resp = webSend(request);
+        String resp = "";
+        while (true) {
+            try {
+                resp = webSend(request);
+                break;
+            } catch (Exception ex) {
+                info(ex.getMessage());
+            }
+        }
         //info(resp);
         return Script.wrapJsonObj(API.decodeJSON(unwrapContent(resp)));
     }

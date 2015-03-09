@@ -39,7 +39,7 @@ function loop(client, args) {
     if (ret.events.length == 0)
         client.info("没有民生任务,记录下次出现时间为:" + Math.ceil((client.props.patrol_nextTime - now) / 1000) + "秒后");
     else
-        client.info("民生任务已经前部执行" + success + "/" + ret.events.length + ",记录下次出现时间为:" + Math.ceil((client.props.patrol_nextTime - now) / 1000) + "秒后");
+        client.info("民生任务已经全部执行" + success + "/" + ret.events.length + ",记录下次出现时间为:" + Math.ceil((client.props.patrol_nextTime - now) / 1000) + "秒后");
 
     return success == ret.events.length;
 }

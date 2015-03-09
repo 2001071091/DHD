@@ -180,11 +180,25 @@ function loop(client, args) {
         }
     }
 
+    var next_time = getQueueNear(client, num, now);
 
-    client.info("1分钟后再次尝试");
-    client.props.manor_nextTime = now + 60000;
+    client.info((next_time - now) / 1000 + "秒后再次尝试");
+    client.props.manor_nextTime = next_time;
 
     return true;
+}
+
+function getQueueNear(client, num, now) {
+    var result = now + 60000;
+    for (var i = 0; i < num; i++) {
+        var key = "manor_build_" + i + "_next";
+        var next = client.getObject(key);
+        if (next != null && next < result) {
+            //client.info(now + (time + 1) * 1000)
+            result = next;
+        }
+    }
+    return result;
 }
 
 function doQueue(client, num, now, time) {
@@ -228,11 +242,13 @@ function tryBuildUpgrade(client, num, now, build, mainLv) {
             //{"building":{"field":1,"type":"OFFICE","level":1,"levelSeconds":61,"heroIndex":0,"leftSeconds":0,"products":0,"produceSeconds":0}}
             client.sendAct("Manor.upgradeBuilding", {field: build.field});
             doQueue(client, num, now, upInfo[build.level][4]);
-            client.info("开始[" + build.type + "]Lv" + (build.level+1) + "升级,时间" + upInfo[build.level][4] + "秒");
-            build.level++;
+            client.info("开始[" + build.type + "]Lv" + (build.level + 1) + "升级,时间" + upInfo[build.level][4] + "秒");
             build.levelSeconds = upInfo[build.level][4] + 1;
+            build.level++;
             gold -= upInfo[build.level][2];
             client.props.props["SILVER"] = gold + "";
+            return build.levelSeconds;
         }
     }
+    return 0;
 }

@@ -37,8 +37,8 @@ function loop(client, args) {
     //英雄进行装备
     client.runAI("equip");
     //处理讨伐群雄
-    //if (lv >= 20)
-    //    client.runAI("campaign");
+    if (lv >= 20)
+        client.runAI("campaign");
     //封地
     if (lv >= 10)
         client.runAI("manor");
@@ -54,7 +54,7 @@ function loop(client, args) {
     if (lv >= 10)
         client.runAI("market");
     //民生
-    if (lv >= 33)
+    if (lv >= 32)
         client.runAI("patrol");
     //皇榜
 

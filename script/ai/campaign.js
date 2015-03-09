@@ -5,6 +5,15 @@
 var _gotStarNumRwds = [5, 10, 15];
 
 function loop(client, args) {
+    var now = API.now();
+
+    //处理冷却延迟
+    if (client.props.campaign_nextTime == null)
+        client.props.campaign_nextTime = 0;
+    if (now < client.props.campaign_nextTime) {
+        return false;
+    }
+
     client.info("-----尝试处理 讨伐群雄");
     var ret = client.sendAct("Campaign.eliteGetAllInfos");
     //client.info(API.encodeJson(ret));
@@ -24,15 +33,15 @@ function loop(client, args) {
                 //{"act":"Campaign.eliteGetFullStarReward","sid":"d883597992ae536fb03c3392e1b9efae0b647c85","body":"{\"difficult\":\"普通\",\"chapter\":2,\"stage\":1}"}
                 if (stages[j].star == 3 && stages[j].rwd == false) {
                     client.sendAct("Campaign.eliteGetFullStarReward", {difficult: difficult, chapter: chapter, stage: j + 1});
-                    client.info("讨伐群雄 ["+difficult+"]["+chapter+"]["+(j + 1)+"]领取3星奖励");
+                    client.info("讨伐群雄 [" + difficult + "][" + chapter + "][" + (j + 1) + "]领取3星奖励");
                 }
                 chapterStart += stages[j].star;
             }
             for (var j = 0; j < _gotStarNumRwds.length; j++) {
-                if (chapterStart >= _gotStarNumRwds[j] && gotStarNumRwds.indexOf((j+1)) < 0) {
+                if (chapterStart >= _gotStarNumRwds[j] && gotStarNumRwds.indexOf((j + 1)) < 0) {
                     //{"act":"Campaign.eliteGetStarNumReward","sid":"d883597992ae536fb03c3392e1b9efae0b647c85","body":"{\"chapter\":1,\"level\":2}"}
                     client.sendAct("Campaign.eliteGetStarNumReward", {chapter: chapter, level: j + 1});
-                    client.info("讨伐群雄 ["+difficult+"]["+chapter+"]领取"+_gotStarNumRwds[j]+"星奖励");
+                    client.info("讨伐群雄 [" + difficult + "][" + chapter + "]领取" + _gotStarNumRwds[j] + "星奖励");
                 }
             }
         }
@@ -77,21 +86,25 @@ function loop(client, args) {
         }
         ret.elite--;
     }
-    
-    
-    
+
+
+
     //{"act":"Arena.getDefFormation","sid":"d883597992ae536fb03c3392e1b9efae0b647c85"}
     //{"heros":[{"index":5,"x":-2,"y":0},{"index":6,"x":-4,"y":0},{"index":4,"x":-5,"y":1}],"power":3701,"costFd":0,"chief":5}
-    
+
     //{"act":"Arena.myArenaStatus","sid":"d883597992ae536fb03c3392e1b9efae0b647c85"}
     //{"rank":10000,"highest":10000,"rwdRank":0,"coin":0,"leftTimes":5,"resetTimes":0,"cd":0}
-    
+
     //{"act":"Arena.changeEnemies","sid":"d883597992ae536fb03c3392e1b9efae0b647c85"}
     //{"list":[{"nm":"脆弱的赵仲宣","icn":100052,"lv":17,"pwr":2136,"rnk":5667,"winc":0,"heros":[{"nm":"夏侯惇","clr":"WHI","phs":0,"star":1,"lv":19,"hpp":103,"morp":0},{"nm":"甄姬","clr":"WHI","phs":0,"star":1,"lv":19,"hpp":104,"morp":0},{"nm":"蔡文姬","clr":"WHI","phs":0,"star":1,"lv":18,"hpp":95,"morp":0},{"nm":"夏侯霸","clr":"WHI","phs":0,"star":1,"lv":19,"hpp":95,"morp":0},{"nm":"许褚","clr":"WHI","phs":0,"star":1,"lv":17,"hpp":105,"morp":0}]},{"nm":"忠诚的何孟博","icn":100022,"lv":16,"pwr":1907,"rnk":7805,"winc":0,"heros":[{"nm":"贾诩","clr":"WHI","phs":0,"star":1,"lv":16,"hpp":96,"morp":0},{"nm":"曹仁","clr":"WHI","phs":0,"star":1,"lv":16,"hpp":104,"morp":0},{"nm":"孙尚香","clr":"WHI","phs":0,"star":1,"lv":17,"hpp":102,"morp":0},{"nm":"于禁","clr":"WHI","phs":0,"star":1,"lv":18,"hpp":101,"morp":0},{"nm":"甄姬","clr":"WHI","phs":0,"star":1,"lv":18,"hpp":95,"morp":0}]},{"nm":"京兆穆安国","icn":100050,"lv":15,"pwr":1805,"rnk":8804,"winc":0,"heros":[{"nm":"文丑","clr":"WHI","phs":0,"star":1,"lv":16,"hpp":97,"morp":0},{"nm":"蔡文姬","clr":"WHI","phs":0,"star":1,"lv":15,"hpp":96,"morp":0},{"nm":"曹仁","clr":"WHI","phs":0,"star":1,"lv":16,"hpp":103,"morp":0},{"nm":"许褚","clr":"WHI","phs":0,"star":1,"lv":15,"hpp":104,"morp":0},{"nm":"贾诩","clr":"WHI","phs":0,"star":1,"lv":15,"hpp":101,"morp":0}]},{"nm":"黄河韩公悌","icn":100047,"lv":15,"pwr":1833,"rnk":9753,"winc":0,"heros":[{"nm":"孙尚香","clr":"WHI","phs":0,"star":1,"lv":15,"hpp":101,"morp":0},{"nm":"蔡文姬","clr":"WHI","phs":0,"star":1,"lv":15,"hpp":95,"morp":0},{"nm":"黄盖","clr":"WHI","phs":0,"star":1,"lv":16,"hpp":102,"morp":0},{"nm":"夏侯霸","clr":"WHI","phs":0,"star":1,"lv":16,"hpp":98,"morp":0},{"nm":"许褚","clr":"WHI","phs":0,"star":1,"lv":17,"hpp":99,"morp":0}]}],"_type":"SCChangeEnemies","_rs":1}
-    
+
 
     //var eliteTimes = ret.elite;
     //var arenaTimes = ret.arena;
+
+    //处理一小时后重试
+    client.info("设定1小时后重新尝试讨伐群雄");
+    client.props.campaign_nextTime = now + 3600000
 }
 
 
