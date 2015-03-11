@@ -86,19 +86,7 @@ function loop(client, args) {
         }
         ret.elite--;
     }
-
-
-
-    //{"act":"Arena.getDefFormation","sid":"d883597992ae536fb03c3392e1b9efae0b647c85"}
-    //{"heros":[{"index":5,"x":-2,"y":0},{"index":6,"x":-4,"y":0},{"index":4,"x":-5,"y":1}],"power":3701,"costFd":0,"chief":5}
-
-    //{"act":"Arena.myArenaStatus","sid":"d883597992ae536fb03c3392e1b9efae0b647c85"}
-    //{"rank":10000,"highest":10000,"rwdRank":0,"coin":0,"leftTimes":5,"resetTimes":0,"cd":0}
-
-    //{"act":"Arena.changeEnemies","sid":"d883597992ae536fb03c3392e1b9efae0b647c85"}
-    //{"list":[{"nm":"脆弱的赵仲宣","icn":100052,"lv":17,"pwr":2136,"rnk":5667,"winc":0,"heros":[{"nm":"夏侯惇","clr":"WHI","phs":0,"star":1,"lv":19,"hpp":103,"morp":0},{"nm":"甄姬","clr":"WHI","phs":0,"star":1,"lv":19,"hpp":104,"morp":0},{"nm":"蔡文姬","clr":"WHI","phs":0,"star":1,"lv":18,"hpp":95,"morp":0},{"nm":"夏侯霸","clr":"WHI","phs":0,"star":1,"lv":19,"hpp":95,"morp":0},{"nm":"许褚","clr":"WHI","phs":0,"star":1,"lv":17,"hpp":105,"morp":0}]},{"nm":"忠诚的何孟博","icn":100022,"lv":16,"pwr":1907,"rnk":7805,"winc":0,"heros":[{"nm":"贾诩","clr":"WHI","phs":0,"star":1,"lv":16,"hpp":96,"morp":0},{"nm":"曹仁","clr":"WHI","phs":0,"star":1,"lv":16,"hpp":104,"morp":0},{"nm":"孙尚香","clr":"WHI","phs":0,"star":1,"lv":17,"hpp":102,"morp":0},{"nm":"于禁","clr":"WHI","phs":0,"star":1,"lv":18,"hpp":101,"morp":0},{"nm":"甄姬","clr":"WHI","phs":0,"star":1,"lv":18,"hpp":95,"morp":0}]},{"nm":"京兆穆安国","icn":100050,"lv":15,"pwr":1805,"rnk":8804,"winc":0,"heros":[{"nm":"文丑","clr":"WHI","phs":0,"star":1,"lv":16,"hpp":97,"morp":0},{"nm":"蔡文姬","clr":"WHI","phs":0,"star":1,"lv":15,"hpp":96,"morp":0},{"nm":"曹仁","clr":"WHI","phs":0,"star":1,"lv":16,"hpp":103,"morp":0},{"nm":"许褚","clr":"WHI","phs":0,"star":1,"lv":15,"hpp":104,"morp":0},{"nm":"贾诩","clr":"WHI","phs":0,"star":1,"lv":15,"hpp":101,"morp":0}]},{"nm":"黄河韩公悌","icn":100047,"lv":15,"pwr":1833,"rnk":9753,"winc":0,"heros":[{"nm":"孙尚香","clr":"WHI","phs":0,"star":1,"lv":15,"hpp":101,"morp":0},{"nm":"蔡文姬","clr":"WHI","phs":0,"star":1,"lv":15,"hpp":95,"morp":0},{"nm":"黄盖","clr":"WHI","phs":0,"star":1,"lv":16,"hpp":102,"morp":0},{"nm":"夏侯霸","clr":"WHI","phs":0,"star":1,"lv":16,"hpp":98,"morp":0},{"nm":"许褚","clr":"WHI","phs":0,"star":1,"lv":17,"hpp":99,"morp":0}]}],"_type":"SCChangeEnemies","_rs":1}
-
-
+    
     //var eliteTimes = ret.elite;
     //var arenaTimes = ret.arena;
 
@@ -106,8 +94,6 @@ function loop(client, args) {
     client.info("设定1小时后重新尝试讨伐群雄");
     client.props.campaign_nextTime = now + 3600000
 }
-
-
 
 function deal(client, lv) {
     var chapter = Math.floor(lv / 5) + 1;

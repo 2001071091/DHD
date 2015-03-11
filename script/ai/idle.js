@@ -39,6 +39,9 @@ function loop(client, args) {
     //处理讨伐群雄
     if (lv >= 20)
         client.runAI("campaign");
+    //处理竞技场
+    if (lv >= 25)
+        client.runAI("arena");
     //封地
     if (lv >= 10)
         client.runAI("manor");
