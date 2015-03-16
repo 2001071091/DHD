@@ -36,6 +36,7 @@ function parser(reader) {
             , other2: reader.readUINT16()
         }
         result[info.name] = info;
+        //API.info(API.encodeJson(info));
     }
     return result;
 }

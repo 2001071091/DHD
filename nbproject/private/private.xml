@@ -9,12 +9,21 @@
             <file>file:/D:/project/DHD/src/org/xl/dhd/Boot.java</file>
         </group>
         <group>
+            <file>file:/E:/项目/DHD/script/ai/patrol.js</file>
+            <file>file:/E:/项目/DHD/script/parser/hero.js</file>
+            <file>file:/E:/项目/DHD/script/parser/city.js</file>
+            <file>file:/E:/项目/DHD/script/ai/arena.js</file>
+            <file>file:/E:/项目/DHD/script/ai/equip.js</file>
             <file>file:/E:/项目/DHD/src/org/xl/dhd/DHDClient.java</file>
             <file>file:/E:/项目/DHD/script/ai/idle.js</file>
+            <file>file:/E:/项目/DHD/script/ai/visit.js</file>
             <file>file:/E:/项目/DHD/script/ai/manor.js</file>
-            <file>file:/E:/项目/DHD/script/ai/equip.js</file>
+            <file>file:/E:/项目/DHD/script/parser/upLevel.js</file>
+            <file>file:/E:/项目/DHD/script/ai/explore.js</file>
             <file>file:/E:/项目/DHD/script/ai/campaign.js</file>
+            <file>file:/E:/项目/DHD/script/ai/opencity.js</file>
             <file>file:/E:/项目/DHD/src/org/xl/dhd/Boot.java</file>
+            <file>file:/E:/项目/DHD/script/ai/attack.js</file>
         </group>
     </open-files>
 </project-private>

@@ -30,6 +30,8 @@ function loop(client, args) {
     }
     //处理引导
     client.runAI("guide");
+    //处理地图探索
+    client.runAI("explore");
     //获取英雄
     client.runAI("getHero");
     //获取邮件
@@ -59,7 +61,8 @@ function loop(client, args) {
     //民生
     if (lv >= 32)
         client.runAI("patrol");
-    //皇榜
+    //TODO 英雄试炼,Lv35
+    //TODO 皇榜
 
     API.sleep(3000);
     return false;//空间脚本只能返回false
